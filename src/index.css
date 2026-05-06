@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.woff2') format('woff2'),
+        url('./fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+  --fondoGeneral: #1f1f1f
+}
+*{
+  color: #f3f3f3;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+p, a, button{
+  font-family: sans-serif;
+}
