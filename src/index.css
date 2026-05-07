@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('./fonts/Inter-Regular.woff2') format('woff2'),
-        url('./fonts/Inter-Regular.woff') format('woff');
+    src: url('./assets/fonts/Inter-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Inter-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -15,6 +15,7 @@
   --colorPrimario: #e7e7e7;
   --bordeOscuro: #333333;
   --temaPrimario: #30bdaf;
+  --textoSecundario: #c2c2c2;
 
 
   --fondoBotonPrimario: #195e57;
@@ -31,6 +32,10 @@
 
   --fondoHoverSecundario: #222222;
   --bordeHoverSecundario: #3a3a3a;
+
+
+  --fondoCard: #0f0f0f;
+  --bordeCard: #3f3f3f;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -51,7 +56,7 @@ p, a, button{
     @apply text-(--colorPrimario) font-normal
   }
   .animacion {
-    @apply transition-all duration-75 ease-in
+    @apply transition-all duration-100 ease-in
   }
 
   .boton-primario {
@@ -60,5 +65,9 @@ p, a, button{
 
   .boton-secundario {
     @apply bg-(--fondoBotonSecundario) px-4 py-1.5 rounded-lg border border-(--bordeBotonSecundario) text-(--bordeTextoSecundario) cursor-pointer font-normal hover:bg-(--fondoHoverSecundario) hover:border-(--bordeHoverSecundario) transition-all duration-75 ease-in
+  }
+
+  .card {
+    @apply bg-(--fondoCard) border border-(--bordeCard) rounded-md p-5
   }
 }

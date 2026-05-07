@@ -1,6 +1,6 @@
 export const HeroSection = () => {
     return (
-        <section className="flex items-center justify-center flex-col gap-10">
+        <section className="flex items-center justify-center flex-col gap-10 -translate-y-15">
             <h1 className="text-7xl max-w-4xl text-center font-semibold!">
                 Emprendemos, creamos y 
                 <span className="text-7xl font-semibold! text-(--temaPrimario)"> construimos juntos</span>
