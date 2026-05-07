@@ -8,6 +8,7 @@ export const App = () => {
         <Routes>
             <Route element={ <MainLayout /> }>
                 <Route path="/" element={ <Landing /> }/>
+                {/* <Route path="/emprendimiento" element={ <Emprendimiento /> }/> */}
             </Route>
         </Routes>
     )
