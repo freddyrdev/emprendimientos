@@ -11,10 +11,10 @@
 }
 
 :root{
-  --fondoGeneral: #1f1f1f
-}
-*{
-  color: #f3f3f3;
+  --fondoGeneral: #121212;
+  --colorPrimario: #F8F8F8;
+  --bordeOscuro: #333333;
+  --temaPrimario: #03DAC6;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -24,4 +24,16 @@ h1, h2, h3, h4, h5, h6{
 
 p, a, button{
   font-family: sans-serif;
+}
+
+@layer components{
+  *{
+    @apply text-sm font-bold
+  }
+  .negrita {
+    @apply text-(--colorPrimario) font-normal
+  }
+  .animacion {
+    @apply transition-all duration-75 ease-in
+  }
 }
