@@ -3,7 +3,7 @@ import { HeroSection } from './hero/HeroSection';
 
 export const Landing = () => {
     return (
-        <main className='grid grid-rows-[1fr_1fr] gap-25'>
+        <main className='grid grid-rows-[1fr_1fr]'>
             <HeroSection />
             <CardSection />
         </main>
