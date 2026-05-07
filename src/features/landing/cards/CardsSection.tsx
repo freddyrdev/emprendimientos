@@ -69,7 +69,7 @@ export const CardSection = () => {
                 <Card 
                     titulo={'CoolKey'} 
                     subtitulo={'Llaveros personalizados'} 
-                    texto={'Creamos teclados únicos combinando estilo, comodidad y personalidad.'} 
+                    texto={'Creamos llaveros únicos combinando estilo, comodidad y personalidad.'} 
                     imagen={ CoolKeyProducto } 
                     iconoFA='fa-regular fa-face-smile-beam'
                     textoColorHover="group-hover:text-[#8B8B8B]!"
