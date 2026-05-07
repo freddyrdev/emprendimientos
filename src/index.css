@@ -12,14 +12,31 @@
 
 :root{
   --fondoGeneral: #121212;
-  --colorPrimario: #F8F8F8;
+  --colorPrimario: #e7e7e7;
   --bordeOscuro: #333333;
-  --temaPrimario: #03DAC6;
+  --temaPrimario: #30bdaf;
+
+
+  --fondoBotonPrimario: #195e57;
+  --bordeBotonPrimario: #13827c;
+  --bordeTextoPrimario: #e6f2f1;
+
+  --fondoHoverPrimario: #24615b;
+  --bordeHoverPrimario: #1f837e;
+
+
+  --fondoBotonSecundario: #1d1d1d;
+  --bordeBotonSecundario: #333333;
+  --bordeTextoSecundario: #e6f2f1;
+
+  --fondoHoverSecundario: #222222;
+  --bordeHoverSecundario: #3a3a3a;
 }
 
 h1, h2, h3, h4, h5, h6{
   font-family: "Inter";
   font-weight: bold;
+  color: var(--colorPrimario)
 }
 
 p, a, button{
@@ -28,12 +45,20 @@ p, a, button{
 
 @layer components{
   *{
-    @apply text-sm font-bold
+    @apply text-sm font-bold text-(--colorPrimario)
   }
   .negrita {
     @apply text-(--colorPrimario) font-normal
   }
   .animacion {
     @apply transition-all duration-75 ease-in
+  }
+
+  .boton-primario {
+    @apply bg-(--fondoBotonPrimario) px-4 py-1.5 rounded-lg border border-(--bordeBotonPrimario) text-(--bordeTextoPrimario) cursor-pointer font-normal hover:bg-(--fondoHoverPrimario) hover:border-(--bordeHoverPrimario) transition-all duration-75 ease-in
+  }
+
+  .boton-secundario {
+    @apply bg-(--fondoBotonSecundario) px-4 py-1.5 rounded-lg border border-(--bordeBotonSecundario) text-(--bordeTextoSecundario) cursor-pointer font-normal hover:bg-(--fondoHoverSecundario) hover:border-(--bordeHoverSecundario) transition-all duration-75 ease-in
   }
 }
