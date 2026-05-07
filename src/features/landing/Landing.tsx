@@ -1,6 +1,7 @@
 import { CardSection } from './cards/CardsSection';
 import { HeroSection } from './hero/HeroSection';
 import { NostrosSection } from './nosotros/NosotrosSection';
+import { CtaSection } from './cta/CtaSection';
 
 export const Landing = () => {
     return (
@@ -8,6 +9,7 @@ export const Landing = () => {
             <HeroSection />
             <CardSection />
             <NostrosSection />
+            <CtaSection />
         </main>
     )
 }
