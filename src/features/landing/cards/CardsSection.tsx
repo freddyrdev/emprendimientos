@@ -1,5 +1,7 @@
 import CoolKeyProducto from "../../../assets/images/vaca.svg"
 import inventario from "../../../assets/images/inventario.svg"
+import muyuArte from "../../../assets/images/muyuArte.svg"
+import mousePad from "../../../assets/images/mousePad.svg"
 
 import { Card } from './components/Card';
 
@@ -21,7 +23,8 @@ export const CardSection = () => {
                     titulo={'MausePad'} 
                     subtitulo={'Mousepads personalizados'} 
                     texto={'Diseñamos mousepads únicos con estilo y personalidad.'} 
-                    imagen={'imagen hola'} 
+                    imagen={ mousePad } 
+                    locacion="-bottom-16 -right-7 h-60 rounded-xl"
                     iconoFA='fa-regular fa-keyboard'
                     textoColorHover="group-hover:text-[#E94EDB]!"
                 />
@@ -29,7 +32,7 @@ export const CardSection = () => {
                     titulo={'Muyu Arte'} 
                     subtitulo={'Accesorios artesanales'} 
                     texto={'Elaboramos pulseras y pendientes hechos con creatividad y detalle.'} 
-                    imagen={'imagen hola'} 
+                    imagen={ muyuArte } 
                     iconoFA='fa-regular fa-gem'
                     textoColorHover="group-hover:text-[#D4CBE2]!"
                 />
