@@ -2,20 +2,23 @@ import CoolKeyProducto from "../../../assets/images/vaca.svg"
 import inventario from "../../../assets/images/inventario.svg"
 import muyuArte from "../../../assets/images/muyuArte.svg"
 import mousePad from "../../../assets/images/mousePad.svg"
+import hidrogeno from "../../../assets/images/hidrogeno.svg"
+import powerPoint from "../../../assets/images/PowerPoint.svg"
 
 import { Card } from './components/Card';
 
 export const CardSection = () => {
     return (
-        <section className="flex flex-col items-center gap-8">
+        <section className="flex flex-col items-center gap-8 mx-13 md:mx-0">
             <h2 className="text-4xl text-center">Lo que compartimos</h2>
             <p className="text-lg font-normal! max-w-xl text-center">Cada emprendimiento tiene su propia esencia, pero todos compartimos el deseo de crear, innovar y ofrecer algo diferente.</p>
-            <article className="grid grid-cols-4 grid-rows-2 mx-50 gap-3">
+            <article className="grid md:grid-cols-2 lg:grid-cols-4 grid-rows-2 md:mx-35 lg:mx-50 gap-3">
                 <Card 
                     titulo={'Diseño + Tech'} 
                     subtitulo={'Diseño gráfico creativo'} 
                     texto={'Creamos diseños modernos que hacen destacar tu identidad visual.'} 
-                    imagen={'imagen hola'} 
+                    imagen={ powerPoint } 
+                    locacion="-bottom-27 right-3 h-60 rounded-xl"
                     iconoFA='fa-regular fa-lightbulb'
                     textoColorHover="group-hover:text-[#508B77]!"
                 />
@@ -34,6 +37,7 @@ export const CardSection = () => {
                     texto={'Elaboramos pulseras y pendientes hechos con creatividad y detalle.'} 
                     imagen={ muyuArte } 
                     iconoFA='fa-regular fa-gem'
+                    locacion="w-70 -bottom-26 -left-13"
                     textoColorHover="group-hover:text-[#D4CBE2]!"
                 />
                 <Card 
@@ -49,8 +53,9 @@ export const CardSection = () => {
                     titulo={'Helados de hidrógeno'} 
                     subtitulo={'Experiencias innovadoras'} 
                     texto={'Creamos helados diferentes que sorprenden desde el primer vistazo.'} 
-                    imagen={'imagen hola'} 
+                    imagen={ hidrogeno } 
                     iconoFA='fa-regular fa-snowflake'
+                    locacion="-bottom-11 right-10 h-40 rounded-xl"
                     textoColorHover="group-hover:text-[#C2DFFD]!"
                 />
                 <Card 

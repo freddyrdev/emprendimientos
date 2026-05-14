@@ -5,7 +5,7 @@ import { CtaSection } from './cta/CtaSection';
 
 export const Landing = () => {
     return (
-        <main className='grid grid-rows-[1fr_1fr_1fr]'>
+        <main className='grid mt-60 md:mt-90 gap-125 lg:mt-0 lg:gap-0 lg:grid-rows-[1fr_1fr_1fr]'>
             <HeroSection />
             <CardSection />
             <NostrosSection />
