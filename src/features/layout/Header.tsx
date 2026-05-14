@@ -5,9 +5,7 @@ export const Header = () => {
     <header className="border-b border-(--bordeOscuro) px-50 py-5 z-10">
         <nav className="flex gap-10 negrita">
             <Link to={""} className="hover:text-(--temaPrimario) animacion">Inicio</Link>
-            <Link to={""} className="hover:text-(--temaPrimario) animacion">Categorias</Link>
             <Link to={"/emprendimiento"} className="hover:text-(--temaPrimario) animacion">Emprendimientos</Link>
-            <Link to={""} className="hover:text-(--temaPrimario) animacion">Contactos</Link>
         </nav>
     </header>
     )
