@@ -13,6 +13,7 @@
 :root{
   --fondoGeneral: #121212;
   --colorPrimario: #e7e7e7;
+  --textoSecundario: #000;
   --bordeOscuro: #333333;
   --temaPrimario: #30bdaf;
   --textoSecundario: #c2c2c2;
@@ -39,6 +40,8 @@
 
 
   --fondoImagen: #1a1a1a;
+
+  --xd: #3b3b3b;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -72,5 +75,14 @@ p, a, button{
 
   .card {
     @apply bg-(--fondoCard) border border-(--bordeCard) rounded-md p-5
+  }
+
+  /* Se trabjara conjunto con el boton primario */
+  .instagram {
+    @apply bg-[#c13584]! text-[#f2f2f2]! border-[#b47197]!
+  }
+
+  .tiktok {
+    @apply bg-[#0e0e0e]! text-[#f2f2f2]! border-[#3b3b3b] hover:border-[#3b3b3b]
   }
 }

@@ -10,7 +10,7 @@ import { SobreMi } from './components/SobreMi';
 
 export const Emprendimiento = () => {
     return (
-        <section className="py-25 px-100 flex flex-col gap-35">
+        <section className="py-25 px-10 md:px-20 lg:px-100 flex flex-col gap-35">
             <SobreMi 
                 titulo={"Diseño + Tech"} 
                 color={"text-[#508B77]!"} 
@@ -18,7 +18,12 @@ export const Emprendimiento = () => {
                 parrafo={
                     "En DiseñoTech transformamos ideas en diseños visuales que transmiten identidad y creatividad. Nos enfocamos en crear contenido gráfico moderno y atractivo, adaptándonos a las necesidades de cada persona o proyecto para lograr resultados únicos y profesionales."
                 } 
+                
                 imagen={ DisenioTech } 
+                contacto={{ 
+                    instagram: "https://www.instagram.com/disenotech.ec",
+                    whatsapp: "https://wa.me/593959672704"
+                }}
             />
             <SobreMi 
                 titulo={"MousePad"} 
@@ -28,6 +33,7 @@ export const Emprendimiento = () => {
                     "En DiseñoTech transformamos ideas en diseños visuales que transmiten identidad y creatividad. Nos enfocamos en crear contenido gráfico moderno y atractivo, adaptándonos a las necesidades de cada persona o proyecto para lograr resultados únicos y profesionales."
                 } 
                 imagen={ Ichau } 
+                contacto={{ whatsapp: "https://wa.me/593983020390" }}
             />
             <SobreMi 
                 titulo={"Muyu Arte"} 
@@ -37,6 +43,7 @@ export const Emprendimiento = () => {
                     "En Muyu Arte elaboramos accesorios artesanales como pulseras y pendientes hechos con dedicación y detalle. Cada creación busca transmitir autenticidad, creatividad y un estilo propio inspirado en el arte y la expresión personal."
                 } 
                 imagen={ Iza } 
+                contacto={{ instagram: "https://www.instagram.com/muyuarte" }}
             />
             <SobreMi 
                 titulo={"InventariosYAEC"} 
@@ -46,6 +53,10 @@ export const Emprendimiento = () => {
                     "En InventariosYAEC trabajamos en la organización y gestión de productos para facilitar el control de inventarios. Nuestro objetivo es ayudar a mejorar la administración y optimización de los recursos de manera práctica y eficiente."
                 } 
                 imagen={ Pillajo } 
+                contacto={{ 
+                    whatsapp: "https://wa.me/593987300082",
+                    instagram: "https://www.instagram.com/inventario.ya.ec2026"
+                }}
             />
             <SobreMi 
                 titulo={"Helados de hidrogeno"} 
@@ -55,6 +66,7 @@ export const Emprendimiento = () => {
                     "En Helados de hidrógeno buscamos ofrecer una experiencia innovadora y diferente a través de productos creativos y llamativos. Nos enfocamos en combinar sabor, presentación y originalidad para crear momentos únicos."
                 } 
                 imagen={ Herrera } 
+                contacto={{ tiktok: "https://www.tiktok.com/@heladosnitrogeno" }}
             />
             <SobreMi 
                 titulo={"Charla motivadora"} 
@@ -64,6 +76,7 @@ export const Emprendimiento = () => {
                     "En nuestras charlas motivadoras compartimos ideas, experiencias y mensajes enfocados en el crecimiento personal y la inspiración. Buscamos generar motivación, confianza y una mentalidad positiva en cada persona que nos escucha."
                 } 
                 imagen={ Cardenas } 
+                contacto={{ whatsapp: "https://wa.me/593979487166" }}
             />
             <SobreMi 
                 titulo={"Venta de Té"} 
@@ -72,7 +85,8 @@ export const Emprendimiento = () => {
                 parrafo={
                     "En Venta de té ofrecemos productos naturales pensados para disfrutar momentos de tranquilidad y bienestar. Nos enfocamos en brindar sabores agradables y experiencias relajantes a través de cada preparación."
                 } 
-                imagen={ Caiza } 
+                imagen={ Caiza }
+                contacto={{ whatsapp: "https://wa.me/593969761685" }} 
             />
         </section>
     )

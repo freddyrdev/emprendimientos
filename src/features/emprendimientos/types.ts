@@ -4,4 +4,11 @@ export interface SobreMiProps {
     lider: string,
     parrafo: string,
     imagen: string,
+    contacto?: contactos
+}
+
+interface contactos { 
+    whatsapp?: string,
+    instagram?: string,
+    tiktok?: string,
 }

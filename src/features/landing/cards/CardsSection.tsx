@@ -4,6 +4,8 @@ import muyuArte from "../../../assets/images/muyuArte.svg"
 import mousePad from "../../../assets/images/mousePad.svg"
 import hidrogeno from "../../../assets/images/hidrogeno.svg"
 import powerPoint from "../../../assets/images/PowerPoint.svg"
+import charlaMotivadora from "../../../assets/images/charlaMotivadora.svg"
+import te from "../../../assets/images/te.svg"
 
 import { Card } from './components/Card';
 
@@ -18,7 +20,7 @@ export const CardSection = () => {
                     subtitulo={'Diseño gráfico creativo'} 
                     texto={'Creamos diseños modernos que hacen destacar tu identidad visual.'} 
                     imagen={ powerPoint } 
-                    locacion="-bottom-27 right-3 h-60 rounded-xl"
+                    locacion="-bottom-13 -right-13 h-60 rounded-xl"
                     iconoFA='fa-regular fa-lightbulb'
                     textoColorHover="group-hover:text-[#508B77]!"
                 />
@@ -62,16 +64,18 @@ export const CardSection = () => {
                     titulo={'Charla motivadora'} 
                     subtitulo={'Inspiración y crecimiento'} 
                     texto={'Compartimos ideas que impulsan la motivación y el desarrollo personal.'} 
-                    imagen={'imagen hola'} 
+                    imagen={ charlaMotivadora } 
                     iconoFA='fa-regular fa-face-laugh'
+                    locacion="bottom-0 left-0"
                     textoColorHover="group-hover:text-[#FFF9C4]!"
                 />
                 <Card 
                     titulo={'Venta de té'} 
                     subtitulo={'Té natural y artesanal'} 
                     texto={'Ofrecemos tés seleccionados para disfrutar cada momento.'} 
-                    imagen={'imagen hola'} 
+                    imagen={ te } 
                     iconoFA='fa-regular fa-star'
+                    locacion="h-60 left-20 -bottom-15 -rotate-10"
                     textoColorHover="group-hover:text-[#BB9531]!"
                 />
                 <Card 
