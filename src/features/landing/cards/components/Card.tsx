@@ -19,7 +19,7 @@ export const Card = ({
                 <h4 className={`${ textoColorHover } animacion`}>{ subtitulo }</h4>
                 <p className="font-normal! text-(--textoSecundario)">{ texto }</p>
             </div>
-            <img src={ imagen } alt={ titulo } className={`absolute ${ locacion } md:w-auto grayscale group-hover:grayscale-0 animacion`}/>
+            <img src={ imagen } alt={ titulo } className={`absolute ${ locacion } md:w-auto grayscale lg:group-hover:grayscale-0 animacion`}/>
         </div>
     )
 }

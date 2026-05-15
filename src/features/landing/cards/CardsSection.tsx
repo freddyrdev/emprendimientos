@@ -66,7 +66,7 @@ export const CardSection = () => {
                     texto={'Compartimos ideas que impulsan la motivación y el desarrollo personal.'} 
                     imagen={ charlaMotivadora } 
                     iconoFA='fa-regular fa-face-laugh'
-                    locacion="bottom-0 left-0"
+                    locacion="-bottom-10 md:-bottom-4 lg:bottom-0 left-0"
                     textoColorHover="group-hover:text-[#FFF9C4]!"
                 />
                 <Card 
@@ -75,7 +75,7 @@ export const CardSection = () => {
                     texto={'Ofrecemos tés seleccionados para disfrutar cada momento.'} 
                     imagen={ te } 
                     iconoFA='fa-regular fa-star'
-                    locacion="h-60 left-20 -bottom-15 -rotate-10"
+                    locacion="h-60 left-20 -bottom-23 rotate-25 lg:-bottom-15 lg:-rotate-10"
                     textoColorHover="group-hover:text-[#BB9531]!"
                 />
                 <Card 
