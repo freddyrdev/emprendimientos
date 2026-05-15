@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://freddyrdev.github.io/emprendimientos/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "bun x gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
