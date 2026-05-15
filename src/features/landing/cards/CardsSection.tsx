@@ -20,7 +20,7 @@ export const CardSection = () => {
                     subtitulo={'Diseño gráfico creativo'} 
                     texto={'Creamos diseños modernos que hacen destacar tu identidad visual.'} 
                     imagen={ powerPoint } 
-                    locacion="-bottom-13 -right-13 h-60 rounded-xl"
+                    locacion="-bottom-15 -right-13 h-60 rounded-xl"
                     iconoFA='fa-regular fa-lightbulb'
                     textoColorHover="group-hover:text-[#508B77]!"
                 />
@@ -66,7 +66,7 @@ export const CardSection = () => {
                     texto={'Compartimos ideas que impulsan la motivación y el desarrollo personal.'} 
                     imagen={ charlaMotivadora } 
                     iconoFA='fa-regular fa-face-laugh'
-                    locacion="-bottom-10 md:-bottom-4 lg:bottom-0 left-0"
+                    locacion="-bottom-10 md:-bottom-4 lg:-bottom-3 left-0"
                     textoColorHover="group-hover:text-[#FFF9C4]!"
                 />
                 <Card 
@@ -75,7 +75,7 @@ export const CardSection = () => {
                     texto={'Ofrecemos tés seleccionados para disfrutar cada momento.'} 
                     imagen={ te } 
                     iconoFA='fa-regular fa-star'
-                    locacion="h-60 left-20 -bottom-23 rotate-25 lg:-bottom-15 lg:-rotate-10"
+                    locacion="h-60 left-20 -bottom-23 rotate-25 lg:-bottom-25 lg:-rotate-10"
                     textoColorHover="group-hover:text-[#BB9531]!"
                 />
                 <Card 
@@ -84,6 +84,7 @@ export const CardSection = () => {
                     texto={'Creamos llaveros únicos combinando estilo, comodidad y personalidad.'} 
                     imagen={ CoolKeyProducto } 
                     iconoFA='fa-regular fa-face-smile-beam'
+                    locacion="top-32 h-50 lg:h-auto "
                     textoColorHover="group-hover:text-[#8B8B8B]!"
                 />
             </article>
